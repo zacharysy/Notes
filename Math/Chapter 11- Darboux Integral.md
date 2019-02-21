@@ -42,7 +42,7 @@
 * 
 * For $a < b$ and $f:[a,b] \rightarrow \mathbb{R}$ bounded, say $f$ is *integrable* on $[a,b]$ if $L(f)^\prime = U(f)$ and write $\int^b_a f$ or $\int^b_a f(x) dx$ 
 
-![](/lecture1summary.jpg)
+![](/lecture1summary.JPG)
 
 ## Examples
 #### Constant Function: $f = c$
@@ -119,12 +119,12 @@ $f:I\rightarrow\mathbb{R}$ is continuous on $I$ : $(\forall c \in I)(\forall \ep
 * Sometimes $\delta$ does not depend on $c$, just $\epsilon$
 
 ### Actual Uniform Continuity
-$$(\forall \epsilon > 0)(\exists\delta > 0)(\forall c \in I)(\forall x \in I)(|x-c| < \delta \implies \left|f(x)-f(c)\right|<\epsilon$$
+$$(\forall \epsilon > 0)(\exists\delta > 0)(\forall c \in I)(\forall x \in I)(|x-c| < \delta \implies \left|f(x)-f(c)\right|<\epsilon)$$
 
 * Uniform Continuity implies Continuity
 * Only on an interval
 * Definition is Symmetric:
-	* $$(\forall \epsilon > 0)(\exists\delta > 0)(\forall x,y \in I)(|x-y| < \delta \implies \left|f(x)-f(y)\right|<\epsilon$$
+	* $$(\forall \epsilon > 0)(\exists\delta > 0)(\forall x,y \in I)(|x-y| < \delta \implies \left|f(x)-f(y)\right|<\epsilon)$$
 
 
 ### Theorem
@@ -165,14 +165,15 @@ $$\int_a^bf=g(b)-g(a)$$
 $\int_a^\infty f$ means $\lim_{N\rightarrow\infty}\int_a^N f$, assuming this limit exists. [So: $f$ is integrable on $[a,N]$ for every $a\geq N$]
 
 ### Lemma 
-$$\int_{-\infty}^\infty f\,dx = \int_{-\infty}^a f\,dx + \int_{a}^\infty f\,dx$$
+$$\int_{-\infty}^\infty f\,dx = \int_{-\infty}^a f\,dx + \int_{a}^{\infty} f\,dx$$
 
 #### Comparison Lemma
-If $0\leq f(x)\leq g(x)$ on $[a,\infty]$, 
-and if $\int_a^infty g$ exists, 
-and if $\int_a^Nf$ exists for all $N\geq a$ 
-then $\int_a^\infty g$ exists and $\int_a^\infty g \leq \int_a^\infty f$
+If $0\leq g(x)\leq f(x)$ on $[a,\infty]$, 
+and if $\int_a^{\infty} f$ exists, 
+and if $\int_a^N g$ exists for all $N\geq a$ 
+then $\int_a^\infty g$ exists and $\int_a^{\infty} g \leq \int_a^{\infty}f$
 
 ### Another Improper Integral
 $\int^a_b f$ where $f$ is unbounded on $[a,b]$. If $f$ is bounded on $[a+\varepsilon,b]$ for all $\varepsilon>0$. then 
-$$\int^a_b f=\lim_{\varepsilon\rightarrow 0}\int_{a+\varepsilon}^b f$$if this exists
+
+$$\int_a^b f = \lim_{\varepsilon \rightarrow 0}\int_{a+\varepsilon}^b f$$ if this exists

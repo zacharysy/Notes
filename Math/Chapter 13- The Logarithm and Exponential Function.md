@@ -73,9 +73,30 @@ If $f:\mathbb{R}\rightarrow\mathbb{R}$ and $f$ is differentiable, and $f'=f$, th
 $$\forall n\in\mathbb{N}, \lim_{x\rightarrow\infty}\frac{e^x}{x^n}=\infty$$
 $$\text{for } a > 1\text{ and }b<\infty, \lim_{x\rightarrow\infty}\frac{a^x}{x^b}=\infty$$
 
+## Nice Theorem for Comparing
+* If $f,g:[a,\infty)$ are both differentiable 
+	* with $f(a)=g(a)$
+	* and $f'(x)\geq g'(x)\forall x$
+* then
+	* $$f(x)\geq g(x) \forall x$$
+* and so 
+	* if $g(x) \rightarrow\infty$ as $x\rightarrow\infty$
+	* then $f(x) \rightarrow\infty$ as $x\rightarrow\infty$
+
 ## Trigonometric Functions
 ### Definition
 $$\pi=2\int_{-1}^1\sqrt{1-x^2}~dx$$
 $$A(x)=\int_x^1\sqrt{1-t^2}~dt + \frac{x\sqrt{1-x^2}}{2}$$
 $$\cos\theta = A^{-1}\left(\frac{\theta}{2}\right)$$
 $$\sin\theta = \sqrt{1-\cos^2\theta}$$
+
+### Derivatives
+$$\cos'(\theta) = -\sin(\theta)$$
+$$\sin'(\theta) = \cos(\theta)$$
+
+### Easy Facts About Cosine and Sine
+* $$\cos : \mathbb{R} \rightarrow [-1,1]$$
+* $$\cos \text{ is continuous and differentiable on }\mathbb{R}, \text{ except perhaps at } \theta = k\pi ,k\in\mathbb{Z}$$
+* $$\sin : \mathbb{R} \rightarrow [-1,1]$$
+* $$\sin \text{ is continuous and differentiable on }\mathbb{R}, \text{ except perhaps at } \theta = k\pi ,k\in\mathbb{Z}$$
+* $$\sin^2\theta + \cos^2\theta = 1$$

@@ -8,7 +8,7 @@ $$x\neq y \in Dom(f) \implies f(x)\neq f(y)$$
 
 ## Surjection
 $f$ is **surjective** (onto) if 
-$$\forall y \in codomain(f), \exists x\in Dom(f), f(x)=y$$
+$$\forall y \in \text{codomain}(f), \exists x\in \text{Domain}(f), f(x)=y$$
 
 * Each $y$ in $f$ is hit by an $x$ at least once
 * Meaning, codomain is equal to range
