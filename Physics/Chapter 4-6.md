@@ -89,5 +89,44 @@ $$\mu_k \leq \mu_s$$
 uniform when $v$ is constant
 $$F_c = \sum F_r = ma_r = \frac{mv^2}{r}$$
 
+
 ### Normal Force
 Along vertical circular path, Normal Force approaches zero going from bottom to top 
+
+## Drag Force ($F_D$)
+>> ![](dragForce.JPG)
+
+* Composite of fluid molecules pushing away when falling
+	* Probs sum of normal force and friction force from air molecules
+* Larger when traveling faster or when surface area is faster
+
+### Terminal Velocity ($v_t$)
+$$F_D = F_g$$
+$$F_D = bv^n, b\in\text{constant}$$
+$$v_t^n = \frac{mg}{b}$$
+
+# Chapter 6: Work and Kinetic Energy
+
+------------------------------
+
+## Work/Energy
+$$W=\int F(x)~dx=\vec{F} \cdot \vec{d}=Fd\cos\theta$$
+
+Equal to sum of forces parallel to direction and the change in position in that direction
+
+Can be positive or negative (if work is being done on object, or work doing object)
+
+Work equal to change of kinetic energy
+
+## Kinetic Energy ($\text{KE}$)
+$$E_k = \frac{1}{2}mv^2$$
+
+* Measured in Joules ($kg\,m^2\,s^{-2}$)
+* Scalar Quantity
+
+## Gravitational Potential Energy
+$$E_p = mgh$$
+
+## Total Energy of a System
+$$E_{tot} = KE + PE$$
+

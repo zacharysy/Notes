@@ -100,3 +100,21 @@ $$\sin'(\theta) = \cos(\theta)$$
 * $$\sin : \mathbb{R} \rightarrow [-1,1]$$
 * $$\sin \text{ is continuous and differentiable on }\mathbb{R}, \text{ except perhaps at } \theta = k\pi ,k\in\mathbb{Z}$$
 * $$\sin^2\theta + \cos^2\theta = 1$$
+* Sine and cosine are both continuous
+
+### Important Lemma
+* If $f$ is continuous at $a$
+	* and $f'$ exists near $a$
+	* and $\lim_{x\rightarrow{a}f'(x)=L}$
+* then $f$ is differentiable at $a$
+
+### Important Characteristic
+$\sin$ and $\cos$ or a linear combination of the two are the only solutions to the differential equation
+	$$f''+f=0$$
+Therefore 
+	$$f(x) = a\cos{x}+b\sin{x}$$
+	Where $f(0)=a$ and $f'(0)=b$
+
+### Angle Addition Formulae
+$$\sin(x+y) = \sin{x}\cos{y}+\sin{y}\cos{x}$$
+$$\cos(x+y) = \cos{x}\cos{y}-\sin{x}\sin{y}$$
