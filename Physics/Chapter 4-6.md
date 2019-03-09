@@ -110,7 +110,7 @@ $$v_t^n = \frac{mg}{b}$$
 ------------------------------
 
 ## Work/Energy
-$$W=\int F(x)~dx=\vec{F} \cdot \vec{d}=Fd\cos\theta$$
+$$W=\int_a^b F(x)~dx=\vec{F} \cdot \vec{d}=Fd\cos\theta$$
 
 Equal to sum of forces parallel to direction and the change in position in that direction
 
@@ -121,12 +121,26 @@ Work equal to change of kinetic energy
 ## Kinetic Energy ($\text{KE}$)
 $$E_k = \frac{1}{2}mv^2$$
 
-* Measured in Joules ($kg\,m^2\,s^{-2}$)
-* Scalar Quantity
+Measured in Joules ($kg\,m^2\,s^{-2}$)
 
-## Gravitational Potential Energy
-$$E_p = mgh$$
+Scalar Quantity
 
-## Total Energy of a System
-$$E_{tot} = KE + PE$$
+## Work-Energy Theorem
+$$W_{tot} = \Delta\text{KE}$$
+
+## Hooke's Law
+$$F = -kx$$
+$$W = -\frac{1}{2}kx^2=-\frac{1}{2}k(x_f^2-x_i^2)=\Delta\text{KE}$$
+
+## Power
+Rate at which work is done
+
+### Average Power
+$$P=\frac{W}{\Delta t}=\frac{\Delta\text{KE}}{\Delta t}$$
+
+### Instantaneous Power
+$$P=\frac{dW}{dt}$$
+
+### Power In Terms of Force
+$$P = \vec{F}\cdot\vec{v}$$
 

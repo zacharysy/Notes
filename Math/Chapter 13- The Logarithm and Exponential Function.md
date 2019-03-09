@@ -102,6 +102,12 @@ $$\sin'(\theta) = \cos(\theta)$$
 * $$\sin^2\theta + \cos^2\theta = 1$$
 * Sine and cosine are both continuous
 
+### Extending sin & cos to Real Line
+$$\cos\theta = \cos(\theta+2k\pi)$$
+$$\cos\theta = \cos(\theta+k\pi)$$
+$$\sin\theta = \sin(\theta+2k\pi)$$
+$$\sin\theta = -\sin(\theta+k\pi)$$
+
 ### Important Lemma
 * If $f$ is continuous at $a$
 	* and $f'$ exists near $a$
@@ -118,3 +124,49 @@ Therefore
 ### Angle Addition Formulae
 $$\sin(x+y) = \sin{x}\cos{y}+\sin{y}\cos{x}$$
 $$\cos(x+y) = \cos{x}\cos{y}-\sin{x}\sin{y}$$
+
+## Other Trigonometric Functions
+### Tangent Function 
+* $$\tan x = \frac{\sin x}{\cos x}$$
+* **Domain:** $\mathbb{R}\setminus\left\{\left(n+\frac{1}{2}\right)\pi\right\}$
+* **Range:** $\mathbb{R}$
+* Periodic with **Period** $\pi$
+* $$\tan'x=\frac{1}{\cos^2x}=\sec^2x$$
+* $$tan(0)=0$$
+* $$tan\left(\frac{\pi}{4}\right)=1$$
+* $$tan^2x + 1 = \frac{1}{\cos^2x}=\sec^2x$$
+
+### Inverse of Tangent ($\tan^{-1},\arctan$)
+* Invertible on domain of $(-\frac{\pi}{2},\frac{\pi}{2})$
+* Increasing in entire domain
+* bounded by $-\frac{\pi}{2}$ and $\frac{\pi}{2}$
+* $$(\tan^{-1})'x=\frac{1}{1+x^2}$$
+* $$\tan^{-1}x=\int_0^x\frac{1}{1+t^2}~dt$$
+
+### Inverse of Cos
+* Invertible on domain $[0,\pi]$
+* $$\cos^{-1}:[-1,1]\rightarrow[0,\pi]$$
+* $$\cos^{-1'}=\frac{-1}{\sqrt{1-x^2}}$$
+* $$\sin^{-1'}=\frac{1}{\sqrt{1+x^2}}$$
+
+### Secant and Cosecant and Cotangent
+$$\sec = \frac{1}{\cos}$$
+$$\csc = \frac{1}{\sin}$$
+$$\cot = \frac{\cos}{\sin}$$
+
+## Hyperbolic Functions
+$$x^2-y^2=1$$
+
+Instead of area bounded by line and circle, is area bounded by line and hyperbola
+
+$$\cosh{t}=\frac{e^t+e^{-t}}{2}$$
+$$\sinh{t}=\frac{e^t-e^{-t}}{2}$$
+
+### Properties
+$$\cosh'=\sinh$$
+$$\sinh'=\cosh$$
+$$\cosh^2-\sinh^2=1$$
+
+### Inverses
+$$\cosh^{-1'}(x)=\frac{1}{\sqrt{x^2-1}}$$
+
