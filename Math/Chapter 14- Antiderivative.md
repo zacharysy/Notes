@@ -66,6 +66,55 @@ $$\int_a^b f~g' = fg|_a^b - \int_a^b f'~g$$
 * $h(x) = h(g^{-1}(u))$
 * So $$\int h(x)f(g(x))~dx=\int H(g(x))$$
 
-### Definite Integral Form
+### Important Formulas
+* $$\cos^2x=\frac{1+\cos2x}{2}$$
+* $$\cos^2x=\frac{1-\cos2x}{2}$$
+
+### Trigonometric Substitutions
+1. $$\sqrt{a^2+(bx)^2}$$
+	* $$x=\frac{a}{b}\sin{u}$$
+2. $$\sqrt{a^2+(bx)^2}$$ 
+	* $$x=\frac{a}{b}\tan{u}$$
+3. $$\sqrt{(bx)^2-a^2}$$ 
+	* $$x=\frac{a}{b}\sec{u}$$
+
+### Trig Functions with Powers
+* $$\int\cos^px\sin^qx~dx$$
+* where $p,q\in\mathbb{Z}$
+	* If $q$ is odd
+		* let $u = \cos x$
+	* If $p$ is odd
+		* let $u = \sin x$
+	* If $p$ and $q$ are both even and nonnegative
+		* use $\cos^2x$ and $\sin^2x$
+	* Default
+		* Magic Bullet substitution
+
+### Last-Resort (Magic Bullet) Substitution
+Eliminates all trig functions
+
+let $$t=\tan\frac{x}{2}$$
+and so $$\sec^2\frac{x}{2}=1+t^2$$
+and so $$dx = \frac{2}{1+t^2}~dt$$
+
+$$\sin x = \frac{2t}{1+t^2}$$
+
+Substitution is only valid for $\mathbb{R}\setminus\{\pm\pi,\pm3\pi,\pm5\pi,...\}$
 
 ## Integration by Partial Fraction
+### Step 1
+Reduce $\frac{P(x)}{Q(x)}$ such that $\deg(P)<\deg(Q)$
+
+### Step 2
+Fully factorize $Q$ into linear and quadratic factors
+
+### Step 3: Do Partial Fractions Decomposition
+
+$$\frac{P(x)}{Q(x)}=\frac{P(x)}{(x-a_1)^{m_1}(x-a_2)^{m_2}...((x-b_1)^2+c_1^2)^{n_1}}$$
+
+Which is equal to
+
+$$\frac{A_1}{x-a_1}+\frac{A_2}{(x-a_1)^2}+...+\frac{A_3}{(x-a_1)^{m_1}}+...+\frac{B_1x+C_1}{(x-b_1)^2+c_1^2}+\frac{B_2x+C_2}{(x-b_1)^2+c_1^2}$$
+
+### Step 4
+cry (Integrate)

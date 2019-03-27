@@ -57,3 +57,56 @@ $$F\propto -x$$
 ### Unstable Equilibrium
 $$\frac{\delta^2 U}{\delta^2 y}=0$$ 
 $$F\propto x$$
+
+# Chapter 8: Momentum, Impulse, and Collisions
+
+## Momentum ($p$)
+$$\vec{p}=mv$$
+
+### Impulse ($\vec{I}$)
+* Change in momentum
+* Time derivative of impulse is force
+	$$\int_{t_i}^{t_f}\vec{F}~dt=\Delta \vec{p} = \vec{I}$$
+* When $F$ is constant
+	$$I=Ft$$
+	
+## Isolated Systems
+No external forces, energy is conserved, momentum is constant
+$$p_{sys}=\sum p_i$$
+$$\frac{dp_{sys}}{dt}=0$$
+
+## Collisions
+### Inelastic
+* Momentum is conserved
+	* $$m_1u_{1}+m_2u_{2}=m_1v_{1}+m_2v_{2}$$
+* Kinetic Energy is not conserved
+* 
+* **Perfectly Inelastic**
+	* Colliding bodies stick together
+
+### Elastic
+* Bounce off each other
+* Momentum and Kinetic Energy are conserved
+	* $$m_1u_{1}+m_2u_{2}=m_1v_{1}+m_2v_{2}$$
+	* $$\frac{1}{2}m_1u_{1}^2+\frac{1}{2}m_2u_{2}^2=\frac{1}{2}m_1v_{1}^2+\frac{1}{2}m_2v_{2}^2$$
+
+#### Shortcut (1D collisions)
+$$v_{1i}+v_{1f}=v_{2i}+v_{2f}$$
+
+#### General Form of Shortcut
+$$e=\frac{v_{1f}-v_{2f}}{v_{1i}-v_{2i}}$$
+
+$$e=\left\{\begin{matrix} 1 & \text{ if elastic} \\ 0\leq e < 1 &\text{ if inelastic} \\ 0 &\text{ if perfectly inelastic}\end{matrix}\right.$$ 
+
+## Center of Mass ($x_{cm}$)
+Consider masses $m_i$ a distance $x_i$ from the origin
+	$$x_{cm}=\frac{\sum{m_ix_i}}{\sum{m_i}}$$
+Let $M=\sum{m_i}$
+	$$P_{sys}=MV_{cm}$$
+Meaning, derivative of $Mx_{cm}$ is momentum of system, and double derivative is sum of external forces
+
+
+
+
+
+
