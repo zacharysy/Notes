@@ -103,10 +103,17 @@ Consider masses $m_i$ a distance $x_i$ from the origin
 	$$x_{cm}=\frac{\sum{m_ix_i}}{\sum{m_i}}$$
 Let $M=\sum{m_i}$
 	$$P_{sys}=MV_{cm}$$
-Meaning, derivative of $Mx_{cm}$ is momentum of system, and double derivative is sum of external forces
+Meaning, derivative of $Mx_{cm}$ is momentum of system, and double derivative is sum of external 
 
+# Chapter 9: Rotational Motion
+## Rotational Analogues to Linear
+$x \rightarrow \theta$
+$v \rightarrow \omega$
+$a \rightarrow \alpha$
+## Kinematic Equations
+$$\omega = \omega + \alpha t$$
+$$\theta = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2$$
+$$\omega^2 = \omega_0^2 + 2\alpha\Delta\theta$$
 
-
-
-
-
+## Right Hand Rule ($\omega$)
+Direction of $\omega$ is direction of thumb

@@ -35,12 +35,12 @@ $$P_{n,1,\log}(x)=(x-1)-\frac{(x-1)^2}{2}+\frac{(x-1)^3}{3}-\frac{(x-1)^4}{4}+..
 
 ## Agreement to an Order $n$ at $a$
 * Functions $f,g$, defined at and near $a$, agree to order $n$ at $a$ if
-	* $$\lim_{x-a}\frac{f(x)-g(x)}{(x-a)^n}=0$$
+	* $$\lim_{x\rightarrow a}\frac{f(x)-g(x)}{(x-a)^n}=0$$
 * If $f,g$ agree to order $n$ at $a$, then they also agree to orders less than $n$ at $a$
 * "agreeing" is an equivalence relation
 
 ## Theorem 1
-* If $f$,$f'$,$f''$,...,$f^{(n)}$ exist at $a$m then
+* If $f$,$f'$,$f''$,...,$f^{(n)}$ exist at $a$ then
 	* $P_{n,a,f}(x)$ agrees with $f$ to order $n$ at $a$
 
 ## Theorem 2 (corollary of Theorem 2.5)
@@ -51,6 +51,23 @@ $$P_{n,1,\log}(x)=(x-1)-\frac{(x-1)^2}{2}+\frac{(x-1)^3}{3}-\frac{(x-1)^4}{4}+..
 ## Theorem 2.5
 If $q,p$ are polynomials of degree $\leq n$ in $x-a$ that agree to order $n$ at $a$, then $p=q$
 
-## Techniques to finding Taylor Polynomial
+## Taylor's Theorem with Integral Remainder Form
+Suppose that $f$ is defined on an interval that includes $a$,$x$ and $f^{(n+1)}$ is integrable on that interval, then
 
+$$R_{n,a,f}(x)=\int_a^x\frac{(x-t)^n}{n!}f^{(n+1)}(t)~dt$$
 
+Where $R_{n,a,f}(x)$ is the remainder ($f-P$), or the error term.
+
+## Taylor's Theorem with Lagrange Remainder Term (weak version)
+Suppose $f$ is defined on interval $I$ that goes from $a$ to $x$. If $f^{(n+1)}$ is continuous on $I$, then 
+
+$$R_{n,a,f}(x)=\frac{(x-a)^{n+1}}{(n+1)!}f^{(n+1)}(c)$$
+
+For some $c$ between $a$ and $x$
+
+## Taylor's Theorem with Lagrange Remainder Term (strong form)
+Suppose $f$ is defined on interval $I$ that goes from $a$ to $x$. If $f^{(n+1)}$ exists, then 
+
+$$R_{n,a,f}(x)=\frac{(x-a)^{n+1}}{(n+1)!}f^{(n+1)}(c)$$
+
+For some $c$ between $a$ and $x$
