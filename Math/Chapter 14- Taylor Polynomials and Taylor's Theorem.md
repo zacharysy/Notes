@@ -71,3 +71,11 @@ Suppose $f$ is defined on interval $I$ that goes from $a$ to $x$. If $f^{(n+1)}$
 $$R_{n,a,f}(x)=\frac{(x-a)^{n+1}}{(n+1)!}f^{(n+1)}(c)$$
 
 For some $c$ between $a$ and $x$
+
+## Important Lemma 
+For $x>0$ fixed, $$\lim_{n\rightarrow\infty}\frac{x^n}{n!}$$
+
+And so remainder goes to $0$ as $n\rightarrow\infty$
+
+
+
