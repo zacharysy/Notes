@@ -107,13 +107,44 @@ Meaning, derivative of $Mx_{cm}$ is momentum of system, and double derivative is
 
 # Chapter 9: Rotational Motion
 ## Rotational Analogues to Linear
-$x \rightarrow \theta$
-$v \rightarrow \omega$
-$a \rightarrow \alpha$
-## Kinematic Equations
+* $x \rightarrow \theta$
+* $v \rightarrow \omega$
+* $a \rightarrow \alpha$
+
+### Kinematic Equations
 $$\omega = \omega + \alpha t$$
 $$\theta = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2$$
 $$\omega^2 = \omega_0^2 + 2\alpha\Delta\theta$$
 
-## Right Hand Rule ($\omega$)
+### Right Hand Rule ($\omega$)
 Direction of $\omega$ is direction of thumb
+
+## Energy of Rotation
+$$\text{KE}_{rot} = \frac{1}{2}I\omega^2$$
+
+## Moment of Inertia ($I$)
+Rotational analogue to mass
+	$$I=\sum{m_ir_i^2}$$
+where $r_i$ is distance from rotation axis
+
+### Moment of Inertia for Macroscopic Objects
+#### Discrete
+$$I=\sum{m_ir_i^2}$$
+
+#### Continuous
+$$I=\int{r^2~dm}$$
+>> ![](/momentOfIntertia.png)
+
+### Parallel Axis Theorem 
+* Calculating Moment of Inertia when object is not rotating around the center of mass, but parallel to its axis
+* $$I = I_{cm} + ML^2$$
+* where $M$ is mass of body and $L$ is distance of axis away from axis of center of mass
+
+### Gravitational Potential Energy of an extended body
+$$U_{g}=Mgy_{cm}$$
+
+# Chapter 10: Rotational Dynamics
+## Torque ($\tau$)
+Rotational analogue to Force
+$$\tau=Fr\sin\theta$$
+Causes angular acceleration

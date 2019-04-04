@@ -1,4 +1,4 @@
-# Chapter 14: Approximating Functions (Taylor Polynomials and Taylor's Theorem)
+# Chapter 15: Approximating Functions (Taylor Polynomials and Taylor's Theorem)
 
 If we know $f$,$f'$,$f''$ at point $a$, how do we approximate $f$ near $a$
 
@@ -77,5 +77,13 @@ For $x>0$ fixed, $$\lim_{n\rightarrow\infty}\frac{x^n}{n!}$$
 
 And so remainder goes to $0$ as $n\rightarrow\infty$
 
+## Summary
+* For every $f,a$, we have $P_{n,a,f}\rightarrow f(x)$ for some $x$'s nearby to $a$
+	* $\exp,\sin,\cos,a=0$ works for all real $x$
+	* $\tanh^{-1},a=0$, for all $x\in(-1,1)$, which is domain of $\tanh^{-1}$
+	* $\tan^{-1},a=0$, for all $x\in[-1,1]$, which is not the domain of $\tan^{-1}$
+	* $f(x)=e^{-\frac{1}{x^2}}$, only works at $a=0$
 
-
+## Taylor Series
+* Taylor Polynomial pushed to infinity
+* $$\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n$$
