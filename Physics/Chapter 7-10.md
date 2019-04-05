@@ -146,5 +146,5 @@ $$U_{g}=Mgy_{cm}$$
 # Chapter 10: Rotational Dynamics
 ## Torque ($\tau$)
 Rotational analogue to Force
-$$\tau=Fr\sin\theta$$
+$$\tau=Fr\sin\theta=I\alpha$$
 Causes angular acceleration
