@@ -111,7 +111,7 @@ $$\sin\theta = -\sin(\theta+k\pi)$$
 ### Important Lemma
 * If $f$ is continuous at $a$
 	* and $f'$ exists near $a$
-	* and $\lim_{x\rightarrow{a}f'(x)=L}$
+	* and $\lim_{x\rightarrow{a}}f'(x)=L$
 * then $f$ is differentiable at $a$
 
 ### Important Characteristic
@@ -147,7 +147,7 @@ $$\cos(x+y) = \cos{x}\cos{y}-\sin{x}\sin{y}$$
 * Invertible on domain $[0,\pi]$
 * $$\cos^{-1}:[-1,1]\rightarrow[0,\pi]$$
 * $$\cos^{-1'}=\frac{-1}{\sqrt{1-x^2}}$$
-* $$\sin^{-1'}=\frac{1}{\sqrt{1+x^2}}$$
+* $$\sin^{-1'}=\frac{1}{\sqrt{1-x^2}}$$
 
 ### Secant and Cosecant and Cotangent
 $$\sec = \frac{1}{\cos}$$

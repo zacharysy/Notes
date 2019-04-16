@@ -147,4 +147,32 @@ $$U_{g}=Mgy_{cm}$$
 ## Torque ($\tau$)
 Rotational analogue to Force
 $$\tau=Fr\sin\theta=I\alpha$$
+$$\vec{\tau}=\vec{F}\times\vec{r}$$
 Causes angular acceleration
+
+## Rolling Motion
+Velocity on bottom edge is $0$ and velocity on top edge is $2v_{cm}$
+
+### For Object To Roll Without Slipping
+$$v_{cm} = \omega r$$
+$$a_{cm} = \alpha r$$
+
+$a_{cm}$ only depends on shape, and not the mass or radius
+
+### Kinetic Energy of Rolling Object
+Translation + Rotation
+
+$$KE = \frac{1}{2}I_{cm}\omega^2+\frac{1}{2}Mv_{cm}^2 = KE_{rot}+KE_{tran}$$
+
+### Rotational Work and Power
+$$W_{rot}=\tau\Delta\theta$$
+$$W_{rot}=\Delta KE=\frac{1}{2}I\Delta\omega^2$$
+$$P_{rot}=\tau\omega$$
+
+## Angular Momentum ($L$)
+### Point Mass
+$$L = \vec{r}\times\vec{p}$$
+### Extended Object
+$$L = I\vec{\omega}$$
+
+ 

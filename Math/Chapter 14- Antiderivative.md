@@ -68,10 +68,10 @@ $$\int_a^b f~g' = fg|_a^b - \int_a^b f'~g$$
 
 ### Important Formulas
 * $$\cos^2x=\frac{1+\cos2x}{2}$$
-* $$\cos^2x=\frac{1-\cos2x}{2}$$
+* $$\sin^2x=\frac{1-\cos2x}{2}$$
 
 ### Trigonometric Substitutions
-1. $$\sqrt{a^2+(bx)^2}$$
+1. $$\sqrt{a^2-(bx)^2}$$
 	* $$x=\frac{a}{b}\sin{u}$$
 2. $$\sqrt{a^2+(bx)^2}$$ 
 	* $$x=\frac{a}{b}\tan{u}$$
@@ -98,7 +98,7 @@ and so $$\sec^2\frac{x}{2}=1+t^2$$
 and so $$dx = \frac{2}{1+t^2}~dt$$
 
 $$\sin x = \frac{2t}{1+t^2}$$
-
+$$\cos x = \frac{1-t^2}{1+t^2}$$
 Substitution is only valid for $\mathbb{R}\setminus\{\pm\pi,\pm3\pi,\pm5\pi,...\}$
 
 ## Integration by Partial Fraction
