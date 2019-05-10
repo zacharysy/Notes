@@ -4,11 +4,9 @@ My notes written in markdown
 Uses LaTeX syntax for math equations, so use multimarkdown
 
 ## Classes
-### Math
-Honors Calculus II
+### Spring 2019
+#### Honors Calculus II
 
-### Physics
-Engineering Physics I: Mechanics
+#### Engineering Physics I: Mechanics
 
-### Economics
-Principles of Microeconomics
+#### Principles of Microeconomics

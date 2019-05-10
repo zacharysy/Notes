@@ -19,3 +19,16 @@ Coverage for Test 2
 * Income Substitution Effects
 
 Names to know: Rothstein show EITC help wages
+
+
+# Final Coverage
+* Profit Maximization
+* Curves
+* Perfect Competition
+* Monopoly
+* Externalities
+
+# Study
+1. Notes
+2. Problem Sets
+3. Extra Questions

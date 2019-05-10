@@ -32,7 +32,7 @@
 * $\sup{LDS}\leq\inf{UDS}$
 	* If they are equal then the function is integrable 
 		* else they are not
-* $L(f,P)\leq L(f,P\cup Q) \leq L(f,P\cup Q) \leq U(f,Q)$
+* $L(f,P)\leq L(f,P\cup Q) \leq U(f,P\cup Q) \leq U(f,Q)$
 
 ### Darboux Integral
 * __Define__
@@ -40,7 +40,7 @@
 	* $U(f)=\inf\{L(f,P):$ P over all partitions $\}$
 	* $L(f),U(f)$ both exist, **$L(f,P)\leq L(f) \leq U(f) \leq U(f,P)$ for any $P$**
 * 
-* For $a < b$ and $f:[a,b] \rightarrow \mathbb{R}$ bounded, say $f$ is *integrable* on $[a,b]$ if $L(f)^\prime = U(f)$ and write $\int^b_a f$ or $\int^b_a f(x) dx$ 
+* For $a < b$ and $f:[a,b] \rightarrow \mathbb{R}$ bounded, say $f$ is *integrable* on $[a,b]$ if $L(f) = U(f)$ and write $\int^b_a f$ or $\int^b_a f(x) dx$ 
 
 ![](/lecture1summary.JPG)
 
@@ -113,10 +113,10 @@ $$\sum_{i=1}^n\int_{t_{i-1}}^{t_i} f$$
 
 ## Uniform Continuity
 ### Recall: Continuity
-$f:I\rightarrow\mathbb{R}$ is continuous on $I$ : $(\forall c \in I)(\forall \epsilon > 0)(\exists\delta > 0)(\forall x \in I)(|x-c| < \delta \implies \left|f(x)-f(c)\right|<\epsilon$
+$f:I\rightarrow\mathbb{R}$ is continuous on $I$ : $(\forall a \in I)(\forall \epsilon > 0)(\exists\delta > 0)(\forall x \in I)(|x-a| < \delta \implies \left|f(x)-f(a)\right|<\epsilon$
 
-* for continuity, $\delta$ depends on $c$ and $\epsilon$
-* Sometimes $\delta$ does not depend on $c$, just $\epsilon$
+* for continuity, $\delta$ depends on $a$ and $\epsilon$
+* Sometimes $\delta$ does not depend on $a$, just $\epsilon$
 
 ### Actual Uniform Continuity
 $$(\forall \epsilon > 0)(\exists\delta > 0)(\forall c \in I)(\forall x \in I)(|x-c| < \delta \implies \left|f(x)-f(c)\right|<\epsilon)$$

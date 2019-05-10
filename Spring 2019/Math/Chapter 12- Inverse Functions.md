@@ -30,7 +30,7 @@ $$f^{-1}=\{(b,a):a\in Dom(f)\}$$
 
 ### Properties of Inverse Functions
 * $f^{-1}$ has domain equal to range of $f$ and range equal to domain of $f$
-* $f^{-1}$ itself is invertible, and $(f^{-1})^{-1}-f$
+* $f^{-1}$ itself is invertible, and $(f^{-1})^{-1}=f$
 * $f(f^{-1}(x))=x$ (Identity function on range of $f$)
 * $f^{-1}(f(x))=x$ (Identity function on domain of $f$)
 	* though $f(f^{-1}(x))\neq f^{-1}(f(x))$ because different domains
@@ -46,7 +46,7 @@ $$f^{-1}=\{(b,a):a\in Dom(f)\}$$
 * Suppose $f:I\rightarrow\mathbb{R}$ is defined on an *interval* $I$, and $f$ is continuous. 
 * If $f$ is invertible, then it is monotone
 
-### Graph of If $f^{-1}$
+### Graph of $f^{-1}$
 Reflection of the graph of $f$ across line $x=y$
 
 #### Horizontal Line Test
