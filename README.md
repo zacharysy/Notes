@@ -4,6 +4,9 @@ My notes written in markdown
 Uses LaTeX syntax for math equations, so use multimarkdown
 
 ## Classes
+### Summer 2020
+* The Qur'an, the Bible, and Christian Theology
+* The Road to War, 1919-1939
 ### Spring 2020
 * Honors Calculus IV
 * Honors Algebra II
